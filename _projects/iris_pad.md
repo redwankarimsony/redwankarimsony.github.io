@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'IRIS-PAD-GUI' 
+title: 'Iris-PAD-GUI' 
 description: A Python-based GUI for detecting presentation attacks in iris biometrics, featuring D-Net-PAD (by Renu Sharma, MSU) and GradCAM visualization for images and labels.
 img: assets/img/iris_pad/irispadgui_0.png
 importance: 1
