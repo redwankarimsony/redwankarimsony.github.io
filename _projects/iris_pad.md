@@ -1,18 +1,32 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: 'IRIS-PAD-GUI' 
+description: A Python-based GUI for detecting presentation attacks in iris biometrics, featuring D-Net-PAD (by Renu Sharma, MSU) and GradCAM visualization for images and labels.
+img: assets/img/iris_pad/irispadgui_0.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Project Repository
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[<i class="fab fa-github"></i> View on GitHub](https://github.com/redwankarimsony/Iris-PAD-GUI)
+
+
+
+<h3>Features:</h3>
+<ul>
+    <li><strong>A Python-based GUI application</strong> for detecting presentation attacks in iris images for biometric recognition.</li>
+    <li><strong>Features D-Net-PAD detection</strong> (developed by <a href="https://www.linkedin.com/in/renusharma-msu/" target="_blank">Renu Sharma</a> at MSU) and GradCAM visualization for input images and labels.</li>
+    <li>Supports Linux operating systems.</li>
+    <li>Provides options for single-image <strong>segmentation</strong> and batch processing for both manual and automatic segmentation.</li>
+    <li>Includes visualization capabilities for enhanced analysis of spoofs with GradCAM and <strong>patch-wise importance map</strong>.</li>
+</ul>
+
+
+
+ 
+ To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
@@ -23,17 +37,19 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/iris_pad/irispadgui_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/iris_pad/irispadgui_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/iris_pad/irispadgui_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    From the left, the first one is the Iris Segmenter which includes both manual segmentation and automatic segmeantation capability. The second one is the evaluation where it gives the score between [0,1] where 0: Bonafide, and 1: Presentation Attack. It also shows the pixelwise importance score (in red heatmap). The third one shows the GradCAM visualization of the decision.  
+
+
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
