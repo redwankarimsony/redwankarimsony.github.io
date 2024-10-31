@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://iprobe.cse.msu.edu/people.php'>PhD Student, iPRoBe Lab, MSU</a> Address. Contacts. Motto. Etc.
+subtitle: <a href='https://iprobe.cse.msu.edu/people.php'>PhD Student, iPRoBe Lab, MSU</a> 
 
 profile:
   align: right

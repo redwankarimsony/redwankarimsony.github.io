@@ -9,7 +9,6 @@ related_publications: true
 ---
 
 ### Project Repository
-
 [<i class="fab fa-github"></i> View on GitHub](https://github.com/redwankarimsony/Iris-PAD-GUI)
 
 

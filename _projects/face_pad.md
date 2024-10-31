@@ -3,10 +3,18 @@ layout: page
 title: 'Face-PAD-GUI'
 description: A GUI based face spoof detector based on spoof detection algorithm with explainability traces. 
 img: assets/img/face_pad/face_pad_gui_1.png
-importance: 2
+importance: 1
 category: work
-giscus_comments: true
+# giscus_comments: true
 ---
+
+### Project Repository
+
+[<i class="fab fa-github"></i> View on GitHub](https://github.com/redwankarimsony/Face-PAD-GUI)
+
+
+
+
 
 <p>In safety-critical biometric systems, <strong>spoof detection</strong> is crucial. Individuals may attempt to evade detection or acquire documents, such as passports or other legal IDs, by posing as someone else. <strong>Face spoof detection</strong> helps prevent attempts to obscure or falsify identity, ensuring the integrity and reliability of biometric verification systems.</p>
 
@@ -18,6 +26,18 @@ giscus_comments: true
     <li><strong>Financial Transactions:</strong> Protects against fraudulent activities in financial institutions by verifying genuine users through iris recognition, reducing identity theft in banking and online transactions.</li>
     <li><strong>Healthcare Access:</strong> Confirms patient identity in secure health systems, ensuring that only authorized individuals receive sensitive medical information and services.</li>
 </ul>
+
+
+<h3 > Key Features </h3>
+<ul>
+    <li> Built in face-detector based on mtcnn for face detection.</li>
+    <li> Face spoof detection. Score output is between [0, 1]. </li>
+    <li> Traces of spoof on all four kinds of traces. </li>
+    <li> Single image processing mode and batch processing mode. </li>
+</ul>
+
+
+
 
 
     ---
@@ -45,6 +65,8 @@ giscus_comments: true
  The first one is a bonafide face which has a very low PA score (0.08). The second one is a transparent mask which has high PA score (0.83) and the third one has a printed face mask which also exhibits high PA score (0.45). 
 
 
+
+<br><br> <br><br>
 <h3 style="text-align: left;">Case 1:</h3>
 </div>
 <div class="row">
@@ -57,6 +79,7 @@ giscus_comments: true
 
 
 
+<br><br><br><br>
 <h3 style="text-align: left;">Case 2:</h3>
 </div>
 <div class="row">
@@ -69,6 +92,7 @@ giscus_comments: true
 
 
 
+<br><br><br><br>
 <h3 style="text-align: left;">Case 3:</h3>
 </div>
 <div class="row">
@@ -80,35 +104,5 @@ giscus_comments: true
     This face image is a real face with printed face mask on. This also shows a high PA score and the right side shows the traces of the spoof. 
 
 
-
-
-
-
-
-
-
-
-
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
 
