@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://iprobe.cse.msu.edu/people.php'>PhD Student, iPRoBe Lab, MSU</a> 
 
