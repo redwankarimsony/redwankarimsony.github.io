@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Redwan Sony
     - name: Date of Birth
-      value: 14th March 1879
+      value: April 11, 1994
     - name: Languages
-      value: English, German
+      value: English, Bangla
 
 - title: Education
   type: time_table
