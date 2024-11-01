@@ -96,6 +96,7 @@ export JEKYLL_ENV=production
 bundle exec jekyll build
 
 # Purge unused css
+export PATH="./node_modules/.bin:$PATH"
 purgecss -c purgecss.config.js
 
 # Delete and move files
