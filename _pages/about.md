@@ -18,6 +18,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<!-- Social Links -->
+<div class="social-links">
+  {% for link in site.social_links %}
+    <a href="{{ link.url }}" target="_blank" title="{{ link.title }}">
+      <i class="{{ link.icon }}"></i>
+    </a>
+  {% endfor %}
+</div>
+
+
 
 
 I am **Redwan Sony**, a Ph.D. student in the [Department of Computer Science and Engineering](https://engineering.msu.edu/about/departments/cse) at [Michigan State University (MSU)](https://msu.edu/). I am currently a Research Assistant in the iPRoBe Lab, where I work under the guidance of [Prof. Arun Ross](https://rossarun.wixsite.com/arun-ross).
